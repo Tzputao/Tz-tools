@@ -30,8 +30,8 @@ Código ✅
 
 ## Recursos em detalhes
 
-<detalhes>
-<summary>Recursos em detalhes (Expandir/Recolher)</summary>
+<details>
+<summary>Features in detail (Expand/Collapse)</summary>
 
 #### [1] Nuke uma conta segmentada
 * Spam alternar do modo claro para escuro o tempo todo nuking
@@ -139,7 +139,6 @@ Ao executar o arquivo, você receberá o seguinte no seu webhook:
 * Mude o tema do Tz tools
 * Altere a quantidade de threads
 * Altere a chave de cancelamento
-* Risco de saída
 </details>
 
 ---
