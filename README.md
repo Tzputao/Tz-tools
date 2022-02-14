@@ -146,8 +146,8 @@ Ao executar o arquivo, você receberá o seguinte no seu webhook:
 ---
 
 
-## 🤓・Para você derrapar
-* Todos nós sabemos que você não pode codificar por nada, mas derrapar o trabalho duro das pessoas, simplesmente não é isso e lucrar com isso é ainda mais fodido
+## 🤓・Para você copiar
+* Todos nós sabemos que você não sabe codificar, mas copiar o trabalho duro das pessoas, simplesmente não é isso e lucrar com isso é ainda mais fodido
 * Espero que você acabe nas ruas implorando por trocados
 
 ## Instalação
