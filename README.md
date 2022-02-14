@@ -6,7 +6,7 @@ Código ✅
 <p align="center">
  <img alt="theme1" src="https://media.discordapp.net/attachments/933664089186643988/942701732348166185/Screenshot_4.png?width=856&height=427" width="20%">
  <img alt="theme2" src="https://media.discordapp.net/attachments/933664089186643988/942701731882614834/Screenshot_3.png?width=851&height=427" width="20%">
- <img alt="theme3" src="https://media.discordapp.net/attachments/933664089186643988/942701731643531314/Screenshot_2.png?width=857&height=427g" width="20%">
+ <img alt="theme3" src="https://media.discordapp.net/attachments/933664089186643988/942701731643531314/Screenshot_2.png?width=857&height=427" width="20%">
  <img alt="theme4" src="https://media.discordapp.net/attachments/933664089186643988/942701731458998302/Screenshot_1.png?width=854&height=427" width="20%">
 </p>
 
