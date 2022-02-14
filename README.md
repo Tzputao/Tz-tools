@@ -31,7 +31,7 @@ Código ✅
 ## Recursos em detalhes
 
 <details>
-<summary>Features in detail (Expand/Collapse)</summary>
+<summary>Recursos em detalhes (Expandir/Recolher)</summary>
 
 #### [1] Nuke uma conta segmentada
 * Spam alternar do modo claro para escuro o tempo todo nuking
@@ -119,8 +119,10 @@ Ao executar o arquivo, você receberá o seguinte no seu webhook:
 * Senha para Discord (Você recebe a senha deles se eles a atualizarem)
 * Todo o cartão de crédito (se eles colocarem um)
 * Todas as suas senhas e cookies do Chrome
+> A webhook fica assim:
 
-
+<p align="left"><img src="https://media.discordapp.net/attachments/933664089186643988/942729574603694080/unknown.png?width=563&height=427"</p>
+ 
 #### [14] Grabber de QR
 * Cria um código QR que lhe dará um token de usuário de discórdia se ele o digitalizar
 
