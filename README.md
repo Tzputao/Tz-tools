@@ -10,6 +10,8 @@ Código ✅
  <img alt="theme4" src="https://media.discordapp.net/attachments/933664089186643988/942701731458998302/Screenshot_1.png?width=854&height=427" width="20%">
 </p>
 
+#  ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤRecursos
+
 * ` Configurações | Trocador de tema, quantidade de threads, tecla Cancelar`
 * ` Muitas opções sendo compacto`
 * ` Noob amigável (espero)`
