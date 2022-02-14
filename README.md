@@ -103,7 +103,7 @@ Esta é a informação que você obtém:
 * Alterar o emblema do hypesquad
 
 #### [12] [em breve]
-Eu só não sei que ter aqui nesta opção das porque
+Aguarde...
 
 #### [13] Criar Token Grabber
 Ao executar o arquivo, você receberá o seguinte no seu webhook:
