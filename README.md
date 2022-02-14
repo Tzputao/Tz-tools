@@ -2,6 +2,7 @@
 Amar ❌
 Código ✅
 
+
 <p align="center">
  <img alt="theme1" src="https://media.discordapp.net/attachments/933664089186643988/942701732348166185/Screenshot_4.png?width=856&height=427" width="20%">
  <img alt="theme2" src="https://media.discordapp.net/attachments/933664089186643988/942701731882614834/Screenshot_3.png?width=851&height=427" width="20%">
