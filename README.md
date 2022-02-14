@@ -34,112 +34,112 @@ Código ✅
 <summary>Recursos em detalhes (Expandir/Recolher)</summary>
 
 #### [1] Nuke uma conta segmentada
-* Spam alternar do modo claro para escuro o tempo todo nuking
-* Mude o idioma de ja para zh-TW para ko para zh-CN
-* Excluir/sair de todos os servidores em que estão
-* Irá criar 100 servidores com o nome que você quiser ou algo aleatório
-* Remove todos os amigos
-* Envie uma mensagem escolhida para todos os amigos que eles têm
-* Tudo será registrado para que você possa ver o que acontece no cmd
+* ` Spam alternar do modo claro para escuro o tempo todo nuking
+* ` Mude o idioma de ja para zh-TW para ko para zh-CN
+* ` Excluir/sair de todos os servidores em que estão
+* ` Irá criar 100 servidores com o nome que você quiser ou algo aleatório
+* ` Remove todos os amigos
+* ` Envie uma mensagem escolhida para todos os amigos que eles têm
+* ` Tudo será registrado para que você possa ver o que acontece no cmd
 
 #### [2] Desfazer amizade de todos os amigos
-* Remove todos os amigos que o usuário tem
+* ` Remove todos os amigos que o usuário tem
 
 #### [3] Excluir e sair de todos os servidores
-* Sai e exclui todo o servidor que o usuário possui
+* ` Sai e exclui todo o servidor que o usuário possui
 
 #### [4] Spam Criar novos servidores
-* Cria 100 novos servidores com o nome que você quiser
+* ` Cria 100 novos servidores com o nome que você quiser
 
 #### [5] Apagador de DM
-* Exclui todos os DM's privados que a conta possui
+* ` Exclui todos os DM's privados que a conta possui
 
 #### [6] DM em massa
 * Envia mensagens para todos os amigos e bate-papos em grupo com uma mensagem de sua escolha
 
 #### [7] Ativar o modo de apreensão
-* Alterna entre o modo claro/escuro enquanto o console estiver aberto
-* Muda os idiomas de ja para zh-TW para ko para zh-CN
+* ` Alterna entre o modo claro/escuro enquanto o console estiver aberto
+* ` Muda os idiomas de ja para zh-TW para ko para zh-CN
 
 #### [8] Obtenha informações de uma conta segmentada
 Esta é a informação que você obtém:
-* ID do usuário
-* Data em que a conta foi criada em
-* Língua
-* Distintivos
-* URL do avatar
-* Símbolo
-* Se eles têm 2fa ligado/desligado
-* E-mail
-* Número de telefone se tiver
-* Se eles têm nitro
-* Se eles têm nitro, você recebe por quantos dias eles o têm
-* Tipo de pagamento (cartão de crédito/paypal)
-* Se o pagamento for válido
-* Nome do cartão de crédito/paypal
-* Nome do titular do cartão de crédito/Paypal
-* Marca do cartão de crédito
-* Número do cartão de crédito (não o inteiro)
-* Data de validade do cartão de crédito
-* Email do Paypal
-* Endereço 1 e endereço 2
-* Sua cidade
-* Seu código postal
-* Seu estado
+* ` ID do usuário
+* ` Data em que a conta foi criada em
+* ` Língua
+* ` Distintivos
+* ` URL do avatar
+* ` Símbolo
+* ` Se eles têm 2fa ligado/desligado
+* ` E-mail
+* ` Número de telefone se tiver
+* ` Se eles têm nitro
+* ` Se eles têm nitro, você recebe por quantos dias eles o têm
+* ` Tipo de pagamento (cartão de crédito/paypal)
+* ` Se o pagamento for válido
+* ` Nome do cartão de crédito/paypal
+* ` Nome do titular do cartão de crédito/Paypal
+* ` Marca do cartão de crédito
+* ` Número do cartão de crédito (não o inteiro)
+* ` Data de validade do cartão de crédito
+* ` Email do Paypal
+* ` Endereço 1 e endereço 2
+* ` Sua cidade
+* ` Seu código postal
+* ` Seu estado
 * O país deles
-* Se o método de pagamento for o padrão
-* Se eles tiverem vários cartões de crédito conectados, você também os receberá
+* ` Se o método de pagamento for o padrão
+* ` Se eles tiverem vários cartões de crédito conectados, você também os receberá
 
 #### [9] Faça login em uma conta
-* Faça login na conta através de seu token
-* Vários navegadores suportados! (google, borda, ópera)
+* ` Faça login na conta através de seu token
+* ` Vários navegadores suportados! (google, borda, ópera)
 
 #### [10] Bloquear amigos
-* Bloqueia todos os amigos que eles têm
+* ` Bloqueia todos os amigos que eles têm
 
 #### [11] Modificador de perfil
-* Alterar seu status
-* Alterar sua biografia
-* Alterar o emblema do hypesquad
+* ` Alterar seu status
+* ` Alterar sua biografia
+* ` Alterar o emblema do hypesquad
 
 #### [12] [em breve]
-Aguarde...
+* ` Aguarde...
 
 #### [13] Criar Token Grabber
 Ao executar o arquivo, você receberá o seguinte no seu webhook:
-* Nome do usuário
-* Nome do computador
-* IP
-* Cidade
-* Região
-* País
-* Localização do Google Maps
-* Captura de tela do seu PC
-* Todos os seus tokens de discórdia válidos
-* Senha para Discord (Você recebe a senha deles se eles a atualizarem)
-* Todo o cartão de crédito (se eles colocarem um)
-* Todas as suas senhas e cookies do Chrome
+* ` Nome do usuário
+* ` Nome do computador
+* ` IP
+* ` Cidade
+* ` Região
+* ` País
+* ` Localização do Google Maps
+* ` Captura de tela do seu PC
+* ` Todos os seus tokens de discórdia válidos
+* ` Senha para Discord (Você recebe a senha deles se eles a atualizarem)
+* ` Todo o cartão de crédito (se eles colocarem um)
+* ` Todas as suas senhas e cookies do Chrome
 
 
 #### [14] Grabber de QR
-* Cria um código QR que lhe dará um token de usuário de discórdia se ele o digitalizar
+* ` Cria um código QR que lhe dará um token de usuário de discórdia se ele o digitalizar
 
 #### [15] Relatório de massa
-* Denuncie em massa um usuário de sua escolha
-* A conta que enviará os relatórios é o token que você colocar
+* ` Denuncie em massa um usuário de sua escolha
+* ` A conta que enviará os relatórios é o token que você colocar
 
 #### [16] Spammer de bate-papo em grupo
-* Crie bate-papos em grupo com usuários aleatórios ou usuários escolhidos em massa
+* ` Crie bate-papos em grupo com usuários aleatórios ou usuários escolhidos em massa
 
 #### [17] Destruidor de webhook
-* Escolha entre excluir ou enviar spam para um webhook
-* Pode personalizar a mensagem que está sendo enviada e pode cancelar o spam a qualquer momento
+* ` Escolha entre excluir ou enviar spam para um webhook
+* ` Pode personalizar a mensagem que está sendo enviada e pode cancelar o spam a qualquer momento
 
 #### [18] Configurações
-* Mude o tema do Tz tools
-* Altere a quantidade de threads
-* Altere a chave de cancelamento
-* Risco de saída
+* ` Mude o tema do Tz tools
+* ` Altere a quantidade de threads
+* ` Altere a chave de cancelamento
+* ` Risco de saída
 </details>
 
 ---
