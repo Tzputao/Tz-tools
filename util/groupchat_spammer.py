@@ -1,6 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 import requests
 import random
@@ -62,26 +62,26 @@ def GcSpammer(token):
         sleep(1)
         Tz.main()
 
-    #if they choose to import the users manually
+    #se eles optarem por importar os usuários manualmente
     if secondchoice == 1:
         setTitle(f"Criando bate-papos em grupo")
-        #if they choose specific users
+        #se eles escolherem usuários específicos
         recipients = input(
             f'{Fore.GREEN}[{Fore.CYAN}>>>{Fore.GREEN}] {Fore.RESET}Insira os usuários com os quais você deseja criar um bate-papo em grupo (separado por , id,id2,id3): {Fore.RED}')
         user = recipients.split(',')
         if "," not in recipients:
             print(f"\n{Fore.RED}Você não tinha vírgulas (,) o formato é id,id2,id3")
             sleep(3)
-            Hazard.main()
+            Tz.main()
         SlowPrint("\"ctrl + c\" a qualquer momento para parar\n")
         sleep(1.5)
         selector(token, user)
 
-    #if they choose to randomize the selection
+    #se eles escolherem randomizar a seleção
     elif secondchoice == 2:
         setTitle(f"Criando bate-papos em grupo")
         IDs = []
-        #Get all users to spam groupchats with
+        #Faça com que todos os usuários façam spam em chats de grupo com
         friendIds = requests.get("https://discord.com/api/v9/users/@me/relationships", proxies={"http": f'http://{proxy()}'}, headers=getheaders(token)).json()
         for friend in friendIds:
             IDs.append(friend['id'])

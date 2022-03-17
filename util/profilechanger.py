@@ -1,6 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 import requests
 import Tz
@@ -14,7 +14,7 @@ def HouseChanger(token, _type):
         2: "Hype Squad Brilliance",
         3: "Hype Squad Balance",
     }
-    #change hypesquad
+    #cmudar hypesquad
     hypesqad_req = {'house_id': _type}
     requests.post('https://discord.com/api/v9/hypesquad/online', headers=getheaders(token), json=hypesqad_req)
     SlowPrint(f"\n{Fore.GREEN}Hypesquad mudou para {Fore.WHITE}{house[_type]}{Fore.GREEN} ")
@@ -23,7 +23,7 @@ def HouseChanger(token, _type):
     Tz.main()
 
 def StatusChanger(token, Status):
-    #change status 
+    #mudar status 
     custom_status = {"custom_status": {"text": Status}} #{"text": Status, "emoji_name": "☢"} if you want to add an emoji to the status
     try:
         requests.patch("https://discord.com/api/v9/users/@me/settings", proxies={"http": f'{proxy()}'}, headers=getheaders(token), json=custom_status)
@@ -35,7 +35,7 @@ def StatusChanger(token, Status):
     Tz.main()
 
 def BioChanger(token, bio):
-    #change bio
+    #mudar biografia
     custom_bio = {"bio": str(bio)}
     try:
         requests.patch("https://discord.com/api/v9/users/@me", proxies={"http": f'{proxy()}'}, headers=getheaders(token), json=custom_bio)

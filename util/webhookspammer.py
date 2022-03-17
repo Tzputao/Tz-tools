@@ -1,6 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 import requests
 import Tz
@@ -22,12 +22,12 @@ def WebhookSpammer(WebHook, Message):
             params = {'wait' : True}
         )
         try:
-            #check if the status got sent or if it got rate limited
+            #verifique se o status foi enviado ou se tem taxa limitada
             if response.status_code == 204 or response.status_code == 200:
                 print(f"{Fore.GREEN}Mensagem enviada{Fore.RESET}")
             elif response.status_code == 429:
                 print(f"{Fore.YELLOW}Taxa limitada ({response.json()['retry_after']}ms){Fore.RESET}")
-                #if we got ratelimited, pause untill the rate limit is over
+                #se tivermos limite de taxa, pause até que o limite de taxa termine
                 sleep(response.json()["retry_after"] / 1000)
             else:
                 print(f"{Fore.RED}Erro : {response.status_code}{Fore.RESET}")

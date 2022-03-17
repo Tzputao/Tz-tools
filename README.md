@@ -2,15 +2,13 @@
 Amar ❌
 Código ✅
 
-
+#  ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤRecursos
 <p align="center">
  <img alt="theme1" src="https://media.discordapp.net/attachments/933664089186643988/942701732348166185/Screenshot_4.png?width=856&height=427" width="20%">
  <img alt="theme2" src="https://media.discordapp.net/attachments/933664089186643988/942701731882614834/Screenshot_3.png?width=851&height=427" width="20%">
- <img alt="theme3" src="https://media.discordapp.net/attachments/933664089186643988/942701731643531314/Screenshot_2.png?width=857&height=427" width="20%">
+ <img alt="theme3" src="https://media.discordapp.net/attachments/933664089186643988/942701731643531314/Screenshot_2.png?width=857&height=427g" width="20%">
  <img alt="theme4" src="https://media.discordapp.net/attachments/933664089186643988/942701731458998302/Screenshot_1.png?width=854&height=427" width="20%">
 </p>
-
-#  ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤRecursos
 
 * ` Configurações | Trocador de tema, quantidade de threads, tecla Cancelar`
 * ` Muitas opções sendo compacto`
@@ -30,7 +28,7 @@ Código ✅
 
 ## Recursos em detalhes
 
-<details>
+<detalhes>
 <summary>Recursos em detalhes (Expandir/Recolher)</summary>
 
 #### [1] Nuke uma conta segmentada
@@ -103,7 +101,7 @@ Esta é a informação que você obtém:
 * Alterar o emblema do hypesquad
 
 #### [12] [em breve]
-* Aguarde...
+Eu só não sei que ter aqui nesta opção das porque
 
 #### [13] Criar Token Grabber
 Ao executar o arquivo, você receberá o seguinte no seu webhook:
@@ -119,10 +117,8 @@ Ao executar o arquivo, você receberá o seguinte no seu webhook:
 * Senha para Discord (Você recebe a senha deles se eles a atualizarem)
 * Todo o cartão de crédito (se eles colocarem um)
 * Todas as suas senhas e cookies do Chrome
-> A webhook fica assim:
 
-<p align="left"><img src="https://media.discordapp.net/attachments/933664089186643988/942729574603694080/unknown.png?width=563&height=427"</p>
- 
+
 #### [14] Grabber de QR
 * Cria um código QR que lhe dará um token de usuário de discórdia se ele o digitalizar
 
@@ -141,13 +137,14 @@ Ao executar o arquivo, você receberá o seguinte no seu webhook:
 * Mude o tema do Tz tools
 * Altere a quantidade de threads
 * Altere a chave de cancelamento
+* Risco de saída
 </details>
 
 ---
 
 
-## 🤓・Para você copiar
-* Todos nós sabemos que você não sabe codificar, mas copiar o trabalho duro das pessoas, simplesmente não é isso e lucrar com isso é ainda mais fodido
+## 🤓・Para você derrapar
+* Todos nós sabemos que você não pode codificar por nada, mas derrapar o trabalho duro das pessoas, simplesmente não é isso e lucrar com isso é ainda mais fodido
 * Espero que você acabe nas ruas implorando por trocados
 
 ## Instalação

