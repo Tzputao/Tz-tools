@@ -1,6 +1,21 @@
-#### Tz tools foi feito por
-Amar ❌
-Código ✅
+<p align="center">
+<img src="https://img.shields.io/github/languages/top/Tzputao/Tz-tools?style=flat-square" </a>
+<img src="https://img.shields.io/github/last-commit/Tzputao/Tz-tools?style=flat-square" </a>
+<img src="https://img.shields.io/github/stars/Tzputao/Tz-tools?color=444444&label=Stars&style=flat-square" </a>
+<img src="https://img.shields.io/github/forks/Tzputao/Tz-tools?color=444444&label=Forks&style=flat-square" </a>
+</p>
+</p>
+<p align="center">
+<a href="https://github.com/Tzputao/Discord-Webhook-Protetor#setting-up-the-api">Configure a API</a> ⋮
+<a href="https://instagram.com/tzfofo">Discord</a>
+</p>
+
+#### esse self foi feito por:
+Amor ❌ código ✅
+
+## ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 🌟Marque este repositório se você gostou do meu self!
+
+---------------------------------------
 
 #  ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤ ㅤㅤRecursos
 <p align="center">
