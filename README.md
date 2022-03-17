@@ -7,7 +7,6 @@
 </p>
 <p align="center">
 <a href="https://github.com/Tzputao/Discord-Webhook-Protetor#setting-up-the-api">Configure a API</a> ⋮
-<a href="https://instagram.com/tzfofo">Discord</a>
 </p>
 
 #### esse self foi feito por:
